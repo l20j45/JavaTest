@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64524766-ecbd-490c-9649-ab20e4b5a6f1" name="Changes" comment="Start the repository lesson 1">
+    <list default="true" id="64524766-ecbd-490c-9649-ab20e4b5a6f1" name="Changes" comment="lesson 2, I write a function to test the definitions.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/l20j45/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/l20j45/StringUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/l20j45/StringUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/l20j45/StringUtilTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,12 +41,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -56,9 +69,8 @@
       <recent name="com.l20j45" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="StringUtilTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.l20j45.StringUtilTest" />
+  <component name="RunManager" selected="JUnit.StringUtilTest.testRepeat_zeroTimes">
+    <configuration name="StringUtilTest.testRepeat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
@@ -66,13 +78,85 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.l20j45" />
+      <option name="MAIN_CLASS_NAME" value="com.l20j45.StringUtilTest" />
+      <option name="METHOD_NAME" value="testRepeat" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringUtilTest.testRepeat_multipleTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.l20j45.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.l20j45" />
+      <option name="MAIN_CLASS_NAME" value="com.l20j45.StringUtilTest" />
+      <option name="METHOD_NAME" value="testRepeat_multipleTime" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringUtilTest.testRepeat_oneTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.l20j45.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.l20j45" />
+      <option name="MAIN_CLASS_NAME" value="com.l20j45.StringUtilTest" />
+      <option name="METHOD_NAME" value="testRepeat_oneTime" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringUtilTest.testRepeat_zeroTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.l20j45.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.l20j45" />
+      <option name="MAIN_CLASS_NAME" value="com.l20j45.StringUtilTest" />
+      <option name="METHOD_NAME" value="testRepeat_zeroTime" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringUtilTest.testRepeat_zeroTimes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.l20j45.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.l20j45" />
+      <option name="MAIN_CLASS_NAME" value="com.l20j45.StringUtilTest" />
+      <option name="METHOD_NAME" value="testRepeat_zeroTimes" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringUtilTest" />
+        <item itemvalue="JUnit.StringUtilTest.testRepeat_zeroTimes" />
+        <item itemvalue="JUnit.StringUtilTest.testRepeat" />
+        <item itemvalue="JUnit.StringUtilTest.testRepeat_multipleTime" />
+        <item itemvalue="JUnit.StringUtilTest.testRepeat_zeroTime" />
+        <item itemvalue="JUnit.StringUtilTest.testRepeat_oneTime" />
       </list>
     </recent_temporary>
   </component>
@@ -85,6 +169,9 @@
       <option name="presentableId" value="Default" />
       <updated>1681600262053</updated>
       <workItem from="1681600263225" duration="2757000" />
+      <workItem from="1681609490498" duration="762000" />
+      <workItem from="1681668222397" duration="341000" />
+      <workItem from="1681772589241" duration="2203000" />
     </task>
     <task id="LOCAL-00001" summary="Start the repository lesson 1">
       <created>1681605515743</created>
@@ -93,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681605515743</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lesson 2, I write a function to test the definitions.">
+      <created>1681609652122</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681609652122</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +195,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start the repository lesson 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start the repository lesson 1" />
+    <MESSAGE value="lesson 2, I write a function to test the definitions." />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 2, I write a function to test the definitions." />
   </component>
 </project>
